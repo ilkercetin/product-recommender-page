@@ -154,7 +154,7 @@
 }
 
 .slide-arrow::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -178,6 +178,12 @@
 
 .slide-right::before {
   transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+@media only screen and (max-width: 1600px) {
+  .main-banner {
+    background-position: center -68px;
+  }
 }
 
 @media only screen and (max-width: 800px) {
