@@ -139,7 +139,7 @@
 }
 
 .product-color:not(.active-color):hover {
-  border: 1px solid red;
+  border: 1px solid #000000;
 }
 
 .slide-arrow {
