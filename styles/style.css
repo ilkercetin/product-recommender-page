@@ -177,7 +177,7 @@
 }
 
 .slide-right::before {
-  transform: translate(-50%, -50%) rotate(-45deg);
+  transform: translate(-75%, -50%) rotate(-45deg);
 }
 
 @media only screen and (min-width: 1600px) {
